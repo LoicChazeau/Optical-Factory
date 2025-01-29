@@ -8,6 +8,9 @@ target 'Runner' do
 
   # Pods for Runner
 
+  flutter_application_path = '../'
+  load File.expand_path('../../.flutter-plugins-dependencies', __FILE__)
+
   target 'RunnerTests' do
     inherit! :search_paths
     # Pods for testing
